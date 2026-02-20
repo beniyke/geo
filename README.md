@@ -2,7 +2,7 @@
 
 # Geo
 
-The Geo package provides a production-ready Geolocation and Mapping system. It enables precise geocoding, distance calculations, and IP-based location services.
+The Geo package provides a Geolocation and Mapping system for the Anchor Framework. It enables precise geocoding, distance calculations, and IP-based location services.
 
 ## Features
 
@@ -100,7 +100,7 @@ $store->geocodeAddress('123 Main St, New York');
 
 ## Use Cases
 
-#### Geofenced Attendance
+### Geofenced Attendance
 
 Ensure employees only check in when they are within 100 meters of their assigned office location.
 
@@ -125,7 +125,7 @@ public function checkIn(float $lat, float $lng)
 }
 ```
 
-#### Delivery Radius Priority
+### Delivery Radius Priority
 
 Automatically prioritize orders for customers within a 5km radius to ensure 30-minute delivery.
 

@@ -24,6 +24,5 @@ class GeoServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        // Any boot logic
     }
 }
